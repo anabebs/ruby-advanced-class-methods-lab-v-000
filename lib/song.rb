@@ -67,5 +67,7 @@ split_filename = filename.chomp(".mp3").split(" - ")
 
 end 
 
+end
+
 
 
