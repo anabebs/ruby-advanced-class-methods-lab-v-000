@@ -44,6 +44,7 @@ end
 
 def self.alphabetical
  @@all.each.name.sort{|a,b|a.name b.name}
+end
 end 
 
 
