@@ -68,7 +68,7 @@ split_filename = filename.chomp(".mp3").split(" - ")
 end 
 
 def self.destroy_all
-  
+  @@all.clear
 end
 
 
