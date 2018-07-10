@@ -43,7 +43,7 @@ def self.find_or_create_by_name(name)
 end
 
 def self.alphabetical
- @@all.each.name.sort{|a,b| a.name => b.name}
+ @@all.each.name.sort{|a,b| a.name <=> b.name}
 end
 end 
 
